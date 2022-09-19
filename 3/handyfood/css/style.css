@@ -1,0 +1,565 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #111;
+	font-weight: 500;
+}
+
+.top-menu li a::after {
+	content: '';
+	display: block;
+	width: 100%;
+	background-color: rgb(255, 255, 255);
+	height: 1px;
+	transition: all .3s;
+	transform: scale(0);
+}
+
+.top-menu li a:hover::after {
+	transform: scale(1);
+}
+
+.baner_main {
+    background-image: url(/img/baner.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+
+.text_baner {
+    color: rgb(24, 72, 48);
+    width: 72%;
+    margin: 0 auto;
+    height: 75vh;
+}
+
+.text_baner h4 {
+    font-size: 4em;
+}
+
+.first_main_section {
+    background-color: #f5f4f5;
+    height: 650px;
+}
+
+.product_prog img {
+    max-width: 300px;
+}
+
+.product_prog_info {
+    max-width: 280px;
+}
+
+.this_menu {
+    height: 50px;
+    width: 200px;
+}
+
+.third_main_section {
+    background-image: url(/img/baner2.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+}
+
+.box_forms {
+    height: 350px;
+    width: 700px;
+}
+
+.form_number_phone input {
+    width: 300px;
+}
+
+.sticky {
+    position: fixed;
+    z-index: 900;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 5px 30px rgb(0 0 0 / 15%);
+    background-color: rgba(0, 0, 0, 0.274);
+}
+
+.stickyw {
+    position: fixed;
+    z-index: 900;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 5px 30px rgb(0 0 0 / 15%);
+    background-color: white;
+}
+
+.faq_first_section {
+    background-image: url(/img/baner4.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+}
+
+.faq_btn {
+    width: 300px;
+    height: 70px;
+}
+
+.hr-line {
+    width: 350px;
+    margin: 0 auto;
+	padding: 0;
+	height: 5px;
+	border: none;
+	border-top: 3px solid #00b74a;;
+}
+
+.faq_tabs li {
+    width: 300px;
+}
+
+.menu_first_section_baner {
+    background-image: url(/img/baner3.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+}
+
+.contact_first_section {
+    background-image: url(/img/baner3.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+}
+
+.menu_cards:hover {
+    box-shadow: 0px 5px 10px 6px rgba(34, 60, 80, 0.16);
+}
+
+.personal_first_section {
+    background-image: url(/img/baner4.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+}
+
+.order_block {
+    height: 50vh;
+    background-color: #f8f8f8;
+}
+
+.sub {
+    width: 300px;
+}
+
+.tabs_navigation {
+    height: 500px;
+}
+
+.tabs_navigation a {
+    height: 100px;
+}
+
+.order_block_second {
+    height: 50vh;
+}
+
+.order_block_third {
+    height: 50vh;
+    background-image: url(/img/baner4.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.order_block_four {
+    height: 50vh;
+    background-color: #f8f8f8;
+}
+
+.order_block_five {
+    height: 42vh;
+    background-color: #f8f8f8;
+}
+
+.form_user_info input {
+    width: 380px;
+}
+
+.form_user_address input {
+    width: 350px;
+}
+
+.cart_first_section {
+    background-image: url(/img/baner3.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+}
+
+.product_counter {
+    border: 1px solid #e5e5e5;
+    background-color: transparent;
+    color: #495057;
+    width: 60px;
+    height: 50px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+    padding: 0 10px;
+}
+
+.about_bundle {
+    max-width: 650px;
+}
+
+.info_bundle {
+    width: 45%;
+}
+
+.goods_cart_first_section {
+    background-image: url(/img/baner3.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+}
+
+.cart_btn {
+    width: 150px;
+    margin: 0 auto;
+}
+
+.total {
+    background: none;
+    border: none;
+    outline: none;
+    color: black;
+    font-weight: bold;
+    text-align: right;
+    width: 90px;
+}
+
+.accordion {
+    width: 900px;
+}
+
+.box_forms_adapt {
+    width: 100%;
+}
+
+.menu_first_section_baner h2 {
+    font-size: 4em;
+}
+
+.table_order {
+    width: 100%;
+}
+
+.text_sub {
+    width: 50%;
+}
+
+.text_baner button {
+    width: 400px;
+    height: 50px;
+    font-size: 1.3em;
+}
+
+.days {
+    background: none;
+    border: none;
+    outline: none;
+    color: black;
+    font-weight: bold;
+    text-align: right;
+}
+
+.text_admin {
+    font-size: 4em;
+    color: rgb(24, 72, 48);
+}
+
+.table_order_admin a:hover {
+    color: #000000;
+}
+
+/* Футер к полу */
+html,body {
+	height: 100%;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+footer {
+	flex: 0 0 auto;
+}
+
+.prog_s {
+    border-radius: 15px;
+}
+
+
+
+/* Адаптивная верстка */
+
+/* Ноутбук */
+@media (max-width: 1470px) {
+	.text_baner h4 {
+        font-size: 3em;
+    }
+}
+
+/* Планшет */
+@media (max-width: 1024px) {
+    /* Заменить все банеры */
+
+    .goods_cart_second_section {
+        flex-direction: column;
+    }
+
+    .info_bundle {
+        margin-top: 25px;
+    }
+
+    iframe {
+        width: 530px;
+    }
+
+    .name_of_user {
+        justify-content: center;
+    }
+
+    .text_baner {
+        width: 90%;
+    }
+
+    .menu_first_section_baner {
+        background-image: url(/img/baner5.jpg);
+    }
+
+    .faq_first_section {
+        background-image: url(/img/baner5.jpg);
+    }
+
+    .contact_first_section {
+        background-image: url(/img/baner5.jpg);
+    }
+
+    .cart_first_section {
+        background-image: url(/img/baner5.jpg);
+    }
+}
+
+@media (max-width: 700px) {
+    .first_main_section {
+        height: 188vh;
+    }
+
+    .baner_main {
+        background-image: url(/img/baner5.jpg);
+        height: 60vh;
+    }
+
+    .text_baner {
+        width: 100%;
+        align-items: center;
+        height: 68vh;
+    }
+
+    .text_baner h4 {
+        font-size: 64px;
+    }
+
+    .text_baner button {
+        width: 620px;
+    }
+
+    /* Блок с формой на главной странице через бп сделать */
+
+    .info_bundle {
+        width: 500px;
+    }
+
+    .faq_tabs li {
+        width: 160px;
+    }
+
+    .accordion {
+        width: 610px;
+    }
+
+    .all_block_and_map {
+        flex-direction: column;
+    }
+
+    .menu_first_section_baner h2 {
+        font-size: 3em;
+    }
+
+    /* Личный кабинет таб панели переделать под адаптив */
+    .order_block_second {
+        flex-direction: column;
+    }
+
+    .text_sub {
+        width: 100%;
+        text-align: center;
+    }
+
+    .text_sub h5 {
+        margin-bottom: 20px;
+    }
+
+    .sub_pic {
+        display: none;
+    }
+
+    .icon_mobile img{
+        width: 165px;
+    }
+
+    .form_user_info input {
+        width: 325px;
+    }
+
+    .info_pills_personal {
+        justify-content: center;
+    }
+    /* По корзине уточнить */
+}
+
+/* Телефон */
+@media (max-width: 375px) {
+    .text_baner h4 {
+        font-size: 2em;
+    }
+
+    .text_baner button {
+        width: 280px;
+    }
+
+    .baner_main {
+        height: 48vh;
+    }
+    
+    .text_baner {
+        align-items: center;
+        height: 56vh;
+    }
+
+    .first_main_section {
+        height: 150vh;
+    }
+
+    .menu_first_section_baner h2 {
+        font-size: 30px;
+    }
+
+    .menu_first_section_baner {
+        height: 40vh;
+    }
+
+    .goods_cart_first_section {
+        height: 40vh;
+    }
+
+    .info_bundle {
+        width: 323px;
+    }
+
+    .accordion {
+        width: 333px;
+    }
+
+    .hr-line {
+        width: 333px;
+    }
+
+    .faq_first_section {
+        height: 40vh;
+    }
+
+    .contact_first_section {
+        height: 40vh;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .personal_first_section {
+        height: 40vh;
+    }
+
+    .adapt_pills_order a {
+        width: 200px;
+    }
+
+    .box_tab_content h4 {
+        text-align: center;
+    }
+
+    .form_number_phone input {
+        width: 225px;
+    }
+
+    .adapt_tab_personal a {
+        width: 78px;
+    }
+
+    .adapt_tab_personal a i {
+        font-size: 20px;
+    }
+
+    .adapt_tab_personal {
+        height: 60vh;
+    }
+
+    .text_sub h5 {
+        font-size: 15px;
+    }
+
+    .icon_mobile {
+        flex-direction: column;
+    }
+
+    .icon_mobile a {
+        margin-top: 15px;
+    }
+
+    .order_block_four p {
+        margin-top: 15px;
+    }
+
+    .form_user_info input {
+        width: 215px;
+    }
+
+    .button_flex_info {
+        flex-wrap: wrap;
+    }
+
+    .button_flex_info button {
+        margin-top: 15px;
+    }
+
+    .form_user_address input {
+        width: 220px;
+    }
+
+}
